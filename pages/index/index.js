@@ -14,5 +14,7 @@ Page({
       src: info.avatarUrl,
       name: info.nickName
     })
+    const btn = this.selectComponent(".button")
+    console.log(btn)
   }
 })
